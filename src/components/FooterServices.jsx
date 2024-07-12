@@ -6,34 +6,28 @@ const FooterServices = () => {
       <div className=" flex flex-col gap-3 p-3">
         <h4 className="text-white font-semibold text-lg">Services</h4>
         <a
-          href=""
+          href="/operations"
           className="px-2 py-1 rounded-md hover:bg-stone-200 hover:text-stone-800  text-stone-400"
         >
-          Bariatric Surgery
+          Facial Rejuvenation
         </a>
         <a
-          href=""
+          href="/operations"
           className="px-2 py-1 rounded-md hover:bg-stone-200 hover:text-stone-800  text-stone-400"
         >
-          Laparotomy
+          Body Contouring
         </a>
         <a
-          href=""
+          href="/operations"
           className="px-2 py-1 rounded-md hover:bg-stone-200 hover:text-stone-800  text-stone-400"
         >
-          Gallbladder Surgery
+          Breast Surgery
         </a>
         <a
-          href=""
+          href="/operations"
           className="px-2 py-1 rounded-md hover:bg-stone-200 hover:text-stone-800  text-stone-400"
         >
-          Appendectomy
-        </a>
-        <a
-          href=""
-          className="px-2 py-1 rounded-md hover:bg-stone-200 hover:text-stone-800  text-stone-400"
-        >
-          Colectomy
+          Non-Surgical Treatments
         </a>
       </div>
     </div>

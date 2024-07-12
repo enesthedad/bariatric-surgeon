@@ -73,15 +73,18 @@ const ServiceCard = () => {
   ];
 
   return (
-    <div className="grid grid-cols-1 my-4 md:grid-cols-2 lg:grid-cols-2 items-center justify-items-center gap-4">
+    <div className="grid grid-cols-1 text-xl my-4 md:grid-cols-2 lg:grid-cols-2 items-center justify-items-center gap-4">
       {operations.map((operation) => (
-        <div className="group flex mx-auto items-center justify-center  text-stone w-[250px] h-[250px]   md:w-[300px] md:h-[300px] xl:w-[350px] xl:h-[350px] border-2 border-stone-800 rounded-lg">
+        <a
+          href="/operations"
+          className="group flex mx-auto items-center justify-center  text-stone w-[250px] h-[250px]   md:w-[300px] md:h-[300px] xl:w-[350px] xl:h-[350px] shadow-md rounded-lg"
+        >
           <>
             <h2 className="group-hover:hidden ">{operation.title}</h2>
             <div className="hidden group-hover:inline ">
               {operation.operations.map((operation, index) => (
                 <div className="flex flex-col   gap-2 p-2">
-                  <div className="font-semibold group2 hover:bg-stone-900 hover:text-white text-center group w-full p-2 rounded-md border-2 border-stone-900">
+                  <div className="font-semibold group2 hover:bg-stone-700 hover:text-white text-center group w-full p-2 rounded-md ">
                     <p className="group2-hover:hidden inline">
                       {operation.title}
                     </p>
@@ -90,7 +93,7 @@ const ServiceCard = () => {
               ))}
             </div>
           </>
-        </div>
+        </a>
       ))}
     </div>
   );

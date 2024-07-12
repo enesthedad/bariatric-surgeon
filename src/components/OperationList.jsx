@@ -28,11 +28,11 @@ const operationDetailList = [
       {
         title: "Rhinoplasty",
         overview:
-          "Eyelid surgery is performed to improve the appearance of the eyelids. It can address issues such as droopy upper eyelids, excess skin, and puffiness or bags under the eyes.",
+          " Rhinoplasty, or nose reshaping surgery, enhances the proportions of your nose and can also correct breathing problems caused by structural defects.",
         procedure:
-          "Incisions are made in the natural creases of the eyelids or inside the lower eyelid. Excess skin, fat, and muscle are then removed or repositioned to create a more youthful and rested look.",
+          "The surgery involves reshaping the bone and cartilage of the nose. Incisions are usually made inside the nostrils or across the columella to minimize visible scarring.",
         recovery:
-          "Patients typically experience mild swelling and bruising for 1-2 weeks. Full recovery can take several months.",
+          "Swelling and bruising around the nose and eyes are common and usually subside within 2 weeks. Full results may take up to a year to be visible.",
         url: "https://youtu.be/dyNpojnbNT4",
       },
     ],
@@ -148,7 +148,7 @@ const OperationList = () => {
     <div className="mb-8">
       {operationDetailList.map((operationDetail) => (
         <div className="mb-2 mt-20 ">
-          <h4 className="text-[36px]  text-center mb-2">
+          <h4 className="text-[42px] text-violet-500 font-bold   text-center mb-2">
             {operationDetail.mainTitle}
           </h4>
           <Seperator />

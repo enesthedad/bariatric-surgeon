@@ -7,9 +7,6 @@ import FeaturedSections from "../components/FeaturedSections";
 const HomePage = () => {
   return (
     <div className="bg-[#fafafa]  min-h-screen w-full flex flex-col justify-between items-center">
-      {/* HEADER START */}
-      {/* Header end */}
-
       <Hero />
       <FeaturedSections />
     </div>
